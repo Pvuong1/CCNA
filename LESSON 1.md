@@ -24,9 +24,9 @@
     * Switch Layer 2:
     Switch layer 2 về cơ bản là một cầu nối với nhiều port, mỗi port là một đoạn trong Ethernet LAN, biệt lập với các port còn lại. Việc truyền gói tin dựa hoàn toàn vào địa chỉ MAC hoặc địa chỉ IP chứa trong gói, nó sẽ không được truyền đi khi chưa biết được địa chỉ gốc.
     
-    Việc truyền các gói tin trong Switch Layer 2 diễn ra như sau: gói tin được gửi từ một Host với một đích đến được đánh dấu bằng một địa chỉ MAC hoặc địa chỉ IP của máy đích. gói tin được gửi đến Switch Layer 2 và được lưu trong bộ nhớ tạm của Switch. Switch Layer 2 sẽ đọc thông tin đích đến là địa chỉ MAC hoặc địa chỉ IP của máy đích, sau đó nó sẽ lọc dữ liệu từ một bảng địa chỉ MAC và địa chỉ IP có sẵn để biết máy đích nằm ở cổng nào và sẽ chuyển tiếp gói tin này đến đúng cổng có địa chỉ MAC của máy đích.
+       Việc truyền các gói tin trong Switch Layer 2 diễn ra như sau: gói tin được gửi từ một Host với một đích đến được đánh dấu bằng một địa chỉ MAC hoặc địa chỉ IP của máy đích. gói tin được gửi đến Switch Layer 2 và được lưu trong bộ nhớ tạm của Switch. Switch Layer 2 sẽ đọc thông tin đích đến là địa chỉ MAC hoặc địa chỉ IP của máy đích, sau đó nó sẽ lọc dữ liệu từ một bảng địa chỉ MAC và địa chỉ IP có sẵn để biết máy đích nằm ở cổng nào và sẽ chuyển tiếp gói tin này đến đúng cổng có địa chỉ MAC của máy đích.
     
-    Việc thu thập và tạo bảng địa chỉ MAC và địa chỉ IP của Switch Layer 2 diễn ra như sau:
+       Việc thu thập và tạo bảng địa chỉ MAC và địa chỉ IP của Switch Layer 2 diễn ra như sau:
 khi mạng được khởi chạy, Switch layer 2 sẽ bắn một gói tin Broadcast tới tất cả host trong mạng. các host này sẽ có quyền tiếp nhận hoặc không tiếp nhận gói tin Broadcast trên. nếu Host tiếp nhận, sau đó bắn trả lại một gói tin trả về cho Switch layer 2 thì Switch sẽ thu thập được các thông tin như địa chỉ IP, địa chỉ MAC của Host này và lưu trữ chúng lại trên một bảng với mục đích sử dụng để truy xuất dữ liệu về địa chỉ IP hoặc địa chỉ MAC cho các lần truyển tiếp gói tin trong mạng.
 
     * Switch layer 3
