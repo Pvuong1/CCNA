@@ -31,5 +31,6 @@ khi mạng được khởi chạy, Switch layer 2 sẽ bắn một gói tin
 
     * Switch layer 3:
     Switch layer 3 về cơ bản, là sự kết hợp khả năng định tuyến của Router và thêm vào Switch layer 2 tiêu chuẩn. Sự khác biệt chính giữa hoạt động chuyển tiếp gói tin của một bộ định tuyến và sự chuyển đổi lớp 3 là thực thi thực tế. Trong các router có mục đích chung, việc chuyển tiếp thường được thực hiện trong phần mềm chạy trên bộ vi xử lý hoặc bộ xử lý mạng , trong khi đó công tắc lớp 3 thực hiện cùng một hoạt động bằng phần cứng mạch tích hợp dành riêng cho ứng dụng chuyên dụng (ASIC).
+    
       Switch layer 3 về cơ bản, là sự kết hợp khả năng định tuyến của Router và thêm vào Switch layer 2 tiêu chuẩn. Sự khác biệt chính giữa hoạt động chuyển tiếp gói tin của một bộ định tuyến và sự chuyển đổi lớp 3 là thực thi thực tế. Trong các router có mục đích chung, việc chuyển tiếp thường được thực hiện trong phần mềm chạy trên bộ vi xử lý hoặc bộ xử lý mạng , trong khi đó công tắc lớp 3 thực hiện cùng một hoạt động bằng phần cứng mạch tích hợp dành riêng cho ứng dụng chuyên dụng (ASIC).
 ## Router
