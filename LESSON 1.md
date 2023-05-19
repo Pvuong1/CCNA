@@ -29,5 +29,7 @@
        Việc thu thập và tạo bảng địa chỉ MAC và địa chỉ IP của Switch Layer 2 diễn ra như sau:
 khi mạng được khởi chạy, Switch layer 2 sẽ bắn một gói tin Broadcast tới tất cả host trong mạng. các host này sẽ có quyền tiếp nhận hoặc không tiếp nhận gói tin Broadcast trên. nếu Host tiếp nhận, sau đó bắn trả lại một gói tin trả về cho Switch layer 2 thì Switch sẽ thu thập được các thông tin như địa chỉ IP, địa chỉ MAC của Host này và lưu trữ chúng lại trên một bảng với mục đích sử dụng để truy xuất dữ liệu về địa chỉ IP hoặc địa chỉ MAC cho các lần truyển tiếp gói tin trong mạng.
 
-    * Switch layer 3
+    * Switch layer 3:
+    Switch layer 3 về cơ bản, là sự kết hợp khả năng định tuyến của Router và thêm vào Switch layer 2 tiêu chuẩn. Sự khác biệt chính giữa hoạt động chuyển tiếp gói tin của một bộ định tuyến và sự chuyển đổi lớp 3 là thực thi thực tế. Trong các router có mục đích chung, việc chuyển tiếp thường được thực hiện trong phần mềm chạy trên bộ vi xử lý hoặc bộ xử lý mạng , trong khi đó công tắc lớp 3 thực hiện cùng một hoạt động bằng phần cứng mạch tích hợp dành riêng cho ứng dụng chuyên dụng (ASIC).
+      Switch layer 3 về cơ bản, là sự kết hợp khả năng định tuyến của Router và thêm vào Switch layer 2 tiêu chuẩn. Sự khác biệt chính giữa hoạt động chuyển tiếp gói tin của một bộ định tuyến và sự chuyển đổi lớp 3 là thực thi thực tế. Trong các router có mục đích chung, việc chuyển tiếp thường được thực hiện trong phần mềm chạy trên bộ vi xử lý hoặc bộ xử lý mạng , trong khi đó công tắc lớp 3 thực hiện cùng một hoạt động bằng phần cứng mạch tích hợp dành riêng cho ứng dụng chuyên dụng (ASIC).
 ## Router
