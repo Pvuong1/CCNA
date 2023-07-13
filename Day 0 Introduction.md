@@ -9,3 +9,8 @@
 * 8. Implementing an EIGRP-Based Solution
 * 9. Implementing a Scalable OSPF-Based Solution
 * 10. Network Device Management  
+## Cisco icon and Symbols
+![image](https://github.com/Pvuong1/CCNA/assets/92532460/90276c33-7cff-4695-8fe6-130d9ad297e9)
+* Router: Bộ định tuyến. Chức năng layer3 -> layer7, vai trò: chuyển tiếp bản tin IP trong mạng.
+* Switch: Hoạt động lớp 2 trở xuống (Physical và Data link)
+* Switch layer3: Kết hợp giữa switch và router
